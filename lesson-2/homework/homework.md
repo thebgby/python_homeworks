@@ -6,7 +6,8 @@
 4. Write a program that takes two numbers and prints out the result of integer division and theremainder.
 5. Make a program that converts a given Celsius temperature to Fahrenheit.
 6. Create a program that accepts a number and returns the last digit of that number.
-7. Create a program that takes a number and checks if it’s e
+7. Create a program that takes a number and checks if it’s even or not.
+
 
 ### String Questions:
 
