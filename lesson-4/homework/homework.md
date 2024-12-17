@@ -56,3 +56,11 @@ output: ass_alom
 input: abcabcdabcdeabcdefabcdefg
 output: abc_abcd_abcdeab_cdef_abcdefg
 ```
+
+
+**4. Number Guessing Game**
+Create a simple number guessing game.
+The computer randomly selects a number between 1 and 100. The player has 10 attempts to guess it. If the guess is high, print "Too high!". If the guess is low, print "Too low!". If they guess correctly, print "You guessed it right!" and exit the loop.
+
+>Hint: Use Python’s `random.randint()` to generate the number.
+
