@@ -64,3 +64,20 @@ The computer randomly selects a number between 1 and 100. The player has 10 atte
 
 >Hint: Use Python’s `random.randint()` to generate the number.
 
+**5. Password Checker**
+Task: Create a simple password checker.
+Ask the user to enter a password. If the password is shorter than 8 characters, print "Password is too short." If the password doesn’t contain at least one uppercase letter, print "Password must contain an uppercase letter.". If the password meets both criteria, print "Password is strong."
+
+**6. Prime Numbers**
+Task: Write a Python program that prints all prime numbers between 1 and 100.
+
+> A prime number is a number greater than 1 that is not divisible by any number other than 1 and itself. Use nested loops to check divisibility.
+
+---
+
+### Bonus Challenge
+Task: Create a simple text-based Rock, Paper, Scissors game where the player plays against the computer.
+- The computer randomly chooses `rock`, `paper`, or `scissors` using `random.choice()`.
+- The player enters their choice.
+- Display the winner and keep track of scores for the player and the computer.
+- First to 5 points wins the match.
