@@ -60,13 +60,22 @@ output: abc_abcd_abcdeab_cdef_abcdefg
 
 **4. Number Guessing Game**
 Create a simple number guessing game.
-The computer randomly selects a number between 1 and 100. The player has 10 attempts to guess it. If the guess is high, print "Too high!". If the guess is low, print "Too low!". If they guess correctly, print "You guessed it right!" and exit the loop.
+- The computer randomly selects a number between 1 and 100. 
+- If the guess is high, print "Too high!". 
+- If the guess is low, print "Too low!". 
+- If they guess correctly, print "You guessed it right!" and exit the loop.
+- The player has 10 attempts to guess it. If the player can not find the correct number in 10 attempts, print "You lost. Want to play again? ".
+- If the player types one of 'Y', 'YES', 'y', 'yes', 'ok' then start the game from the beginning.
+
 
 >Hint: Use Python’s `random.randint()` to generate the number.
 
 **5. Password Checker**
 Task: Create a simple password checker.
-Ask the user to enter a password. If the password is shorter than 8 characters, print "Password is too short." If the password doesn’t contain at least one uppercase letter, print "Password must contain an uppercase letter.". If the password meets both criteria, print "Password is strong."
+- Ask the user to enter a password. 
+- If the password is shorter than 8 characters, print "Password is too short." 
+- If the password doesn’t contain at least one uppercase letter, print "Password must contain an uppercase letter.". 
+- If the password meets both criteria, print "Password is strong."
 
 **6. Prime Numbers**
 Task: Write a Python program that prints all prime numbers between 1 and 100.
