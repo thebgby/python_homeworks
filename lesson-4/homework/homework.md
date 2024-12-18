@@ -68,7 +68,7 @@ Create a simple number guessing game.
 - If the player types one of 'Y', 'YES', 'y', 'yes', 'ok' then start the game from the beginning.
 
 
->Hint: Use Python’s `random.randint()` to generate the number.
+> Hint: Use Python’s `random.randint()` to generate the number.
 
 **5. Password Checker**
 Task: Create a simple password checker.
