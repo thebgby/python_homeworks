@@ -77,7 +77,8 @@ output: "Denominator can't be zero"
 4. **Example Output**  
    **Content of sample.txt**:  
    ```
-   This is a simple file. This file is for testing purposes. It is a test file.
+   This is a simple file.
+   This file, is for testing purposes. It is a test file.
    ```
 
    **Console Output**:  
