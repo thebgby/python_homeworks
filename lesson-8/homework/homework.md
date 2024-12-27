@@ -20,7 +20,6 @@ The actual requirements are open to interpretation, but try to adhere to these g
 #### **Objective:**
 Develop a command-line banking application that allows users to perform basic banking operations like creating an account, depositing money, and withdrawing money. This will help you practice using object-oriented programming (OOP), file handling, and error handling in Python.
 
----
 
 ### **Tasks:**
 

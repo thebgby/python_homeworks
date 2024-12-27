@@ -11,3 +11,7 @@ product = Product()
 
 from ecommerce import products
 product = products.Product()
+
+# from .ecommerce import contact
+
+print('done')
