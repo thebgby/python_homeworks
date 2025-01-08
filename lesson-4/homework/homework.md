@@ -1,92 +1,106 @@
-## Questions:
+# Class 4 - Homeworks
 
-1. <a href="https://pynative.com/python-if-else-and-for-loop-quiz/">Loops quiz</a>
-2.  What is the difference between the continue and break statements in Python?
-3. Can you explain the difference between for loop and while loop?
-4. How would you implement a nested for loop system? Provide an example.
+## Topic: Dictionaries, Sets
 
-## Homeworks:
+## Exercises - Dictionaries
 
-**1.** Return uncommon elements of lists. Order of elements does not matter.
-```
-input:
-    list1 = [1, 1, 2]
-    list2 = [2, 3, 4]
-output: [1, 1, 3, 4]
-```
+1. Print the value of key ‘history’ from the below `dict`
+    ```python
+    sampleDict = {
+        "class": {
+            "student": {
+                "name": "Mike",
+                "marks": {
+                    "physics": 70,
+                    "history": 80
+                }
+            }
+        }
+    }
+    ```
 
-```
-input:
-    list1 = [1, 2, 3]
-    list2 = [4, 5, 6]
-output: [1, 2, 3, 4, 5, 6]
-```
+2. Write a program to rename a key `city` to a `location` in the following dictionary.
+    ```python
+    sample_dict = {
+    "name": "Kelly",
+    "age":25,
+    "salary": 8000,
+    "city": "New york"
+    }
+    ```
 
-```
-input:
-    list1 = [1, 1, 2, 3, 4, 2]
-    list2 = [1, 3, 4, 5]
-output: [2, 2, 5]
-```
+3. Change value of a key in a nested dictionary. Write a Python program to change Brad’s salary to 8500 in the following dictionary.
+    ```python
+    sample_dict = {
+        'emp1': {'name': 'Jhon', 'salary': 7500},
+        'emp2': {'name': 'Emma', 'salary': 8000},
+        'emp3': {'name': 'Brad', 'salary': 500}
+    }
+    ```
 
-**2.** Print the square of each number which is less than `n` on a separate line.
-
-```
-input: n = 5
-output:
-    1
-    4
-    9
-    16
-```
-
-**3.** `txt` nomli string saqlovchi o'zgaruvchi berilgan. `txt`dagi har uchinchi belgidan keyin pastgi chiziqcha (underscore) qo'yilsin. Agar belgi unli harf yoki orqasidan ostki chiziqcha qo'yilgan harf bo'lsa, ostki chiziqcha keyingi harfdan keyin qo'yilsin. Agar belgi satrdagi oxirgi belgi bo'lsa chiziqcha qo'yilmasin.
-
-```
-input: hello
-output: hel_lo
-```
-
-```
-input: assalom
-output: ass_alom
-```
-
-```
-input: abcabcdabcdeabcdefabcdefg
-output: abc_abcd_abcdeab_cdef_abcdefg
-```
-
-
-**4. Number Guessing Game**
-Create a simple number guessing game.
-- The computer randomly selects a number between 1 and 100. 
-- If the guess is high, print "Too high!". 
-- If the guess is low, print "Too low!". 
-- If they guess correctly, print "You guessed it right!" and exit the loop.
-- The player has 10 attempts to guess it. If the player can not find the correct number in 10 attempts, print "You lost. Want to play again? ".
-- If the player types one of 'Y', 'YES', 'y', 'yes', 'ok' then start the game from the beginning.
+4. Python program to convert a dictionary to list of (k,v) tuples.
+    ```python
+    d1 = {"one":11, "two":22, "three":33, "four":44, "five":55}
+    ```
+5. Get sum of all the values in a dict
+    ```python
+    sample_dict = {
+        'Physics': 82,
+        'Math': 65,
+        'history': 75,
+        'chemistry': 89,
+        'GK': 50
+        
+    }
+    ```
+6. Write a Python script to sort (ascending and descending) a dictionary by value.
+7. Merge two Python dictionaries into one
+    ```python
+    dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+    dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+    ```
+8. Create a dictionary with the keys `'name'`, `'age'`, and `'city'` and corresponding values `'Alice'`, `25`, and `'New York'`. Print the dictionary.  
+9. Access and print the value of the 'age' key from the dictionary.
+10. Use the .get() method to access the value of 'city' and print it.
+11. Update the 'age' key in the dictionary to 26 and print the dictionary.
+12. Add a new key 'job' with the value 'Engineer' to the dictionary.
+13. Remove the 'city' key from the dictionary using the del keyword and print the dictionary.
+14. Remove the 'job' key using .pop(). Print the value and the updated dictionary.
+15. Remove and print the last inserted key-value pair from the dictionary using .popitem().
+16. Print all the keys in the dictionary.
+17. Print all the values in the dictionary.
+18. Print all key-value pairs as tuples.
+19. Check if 'name' exists in the dictionary. Print True or False.
+20. Remove all items from the dictionary. Print the empty dictionary.
 
 
-> Hint: Use Python’s `random.randint()` to generate the number.
-
-**5. Password Checker**
-Task: Create a simple password checker.
-- Ask the user to enter a password. 
-- If the password is shorter than 8 characters, print "Password is too short." 
-- If the password doesn’t contain at least one uppercase letter, print "Password must contain an uppercase letter.". 
-- If the password meets both criteria, print "Password is strong."
-
-**6. Prime Numbers**
-Task: Write a Python program that prints all prime numbers between 1 and 100.
-
-> A prime number is a number greater than 1 that is not divisible by any number other than 1 and itself. Use nested loops to check divisibility.
-
----
-
-### Bonus Challenge
-Task: Create a simple text-based Rock, Paper, Scissors game where the player plays against the computer.
-- The computer randomly chooses `rock`, `paper`, or `scissors` using `random.choice()`.
-- The player enters their choice.
-- Display the winner and keep track of scores for the player and the computer.
-- First to 5 points wins the match.
+## Tuples
+21. Given a Python list, Write a program to add all its elements into a given set.
+    ```python
+    sample_set = {"Yellow", "Orange", "Black"}
+    sample_list = ["Blue", "Green", "Red"]
+    ```
+22. Return a new set of identical items from two sets
+    ```python
+    set1 = {10, 20, 30, 40, 50}
+    set2 = {30, 40, 50, 60, 70}
+    ```
+23. Write a Python program to return a new set with unique items from both sets by removing duplicates.
+    ```python
+    set1 = {10, 20, 30, 40, 50}
+    set2 = {30, 40, 50, 60, 70}
+    ```
+24. Given two Python sets, write a Python program to update the first set with items that exist only in the first set and not in the second set.
+    ```python
+    set1 = {10, 20, 30}
+    set2 = {20, 40, 50}
+    ```
+25. Write a Python program to remove items 10, 20, 30 from the following set at once.
+    ```python
+    set1 = {10, 20, 30, 40, 50}
+    ```
+26. Return a set of elements present in Set A or B, but not both
+    ```python
+    set1 = {10, 20, 30, 40, 50}
+    set2 = {30, 40, 50, 60, 70}
+    ```

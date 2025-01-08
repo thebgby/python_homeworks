@@ -1,109 +1,103 @@
-### Zero Check Decorator
+# Class 6 - Homeworks
 
-Write a decorator function called `check` that verifies that the denominator is not equal to 0 and apply it to the following function:
+## Topic: Loops
 
-```python
-@check
-def div(a, b):
-   return a / b
-```
+## Exercises 
 
-```
-input: div(6, 2)
-output: 3
-```
+1. Print first 10 natural numbers using while loop
+2. Write a Python code to print the following number pattern using a loop.
+    ```bash
+    1 
+    1 2 
+    1 2 3 
+    1 2 3 4 
+    1 2 3 4 5
+    ```
+3. Write a Python program to accept a number from a user and calculate the sum of all numbers from 1 to a given number. For example, if the user entered 10, the output should be 55 (1+2+3+4+5+6+7+8+9+10)
+    ```bash
+    Enter number 10
+    Sum is:  55
+    ```
+4. Write a Python program to count the total number of digits in a number using a while loop. For example, the number is 75869, so the output should be 5.
+5. Print list in reverse order using a loop
+6. Display numbers from -10 to -1 using for loop
+7. Display a message “Done” after the successful execution of the for loop
+    Given:
+    ```python
+    for i in range(5):
+        print(i)
+    ```
 
-```
-input: div(6, 0)
-output: "Denominator can't be zero"
-```
+    Output:
+    ```bash
+    0
+    1
+    2
+    3
+    4
+    Done!
+    ```
+8. Print all prime numbers within a range.
 
----
+    * Note: A Prime Number is a number that cannot be made by multiplying other whole numbers. A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 
-### **Employee Records Manager**
-**Objective**: Create a program to manage employee records using file handling.  
+    Examples:
+    * 6 is not a prime number because it can be made by 2×3 = 6
+    * 37 is a prime number because no other whole numbers multiply to make it.
 
-**Tasks**:  
-1. **File Creation and Data Entry**  
-   - Create a file named **"employees.txt"**.  
-   - Allow the user to add new employee records. Each record should have the following fields:  
-     ```
-     Employee ID, Name, Position, Salary
-     ```
-     Example of a record:  
-     ```
-     1001, John Doe, Software Engineer, 75000
-     ```
+    Given:
+    ```python
+    # range
+    start = 25
+    end = 50
+    ```
 
-2. **Menu Options**  
-   Your program should present the following options:  
-   ```
-   1. Add new employee record
-   2. View all employee records
-   3. Search for an employee by Employee ID
-   4. Update an employee's information
-   5. Delete an employee record
-   6. Exit
-   ```
+    Output:
+    ```bash
+    Prime numbers between 25 and 50 are:
+    29
+    31
+    37
+    41
+    43
+    47
+    ```
 
-3. **Functional Requirements**  
-   - **Option 1**: Append a new employee record to **"employees.txt"**.  
-   - **Option 2**: Display all employee records from **"employees.txt"**.  
-   - **Option 3**: Allow the user to search for an employee by **Employee ID** and display their details.  
-   - **Option 4**: Update an employee’s information (name, position, or salary) based on the Employee ID.  
-   - **Option 5**: Delete an employee's record from the file using the Employee ID.  
-   - **Option 6**: Exit the program. 
-
----
-
-### **Word Frequency Counter**
-**Objective**: Analyze a text file and count how often each word appears.  
-
-**Tasks**:  
-1. **File Input**  
-   - Use the file **"sample.txt"**. The file can contain any text (like a paragraph or an article).  
-   - If **"sample.txt"** does not exist, prompt the user to create it by typing in a paragraph.  
-
-2. **Count Word Frequency**  
-   - Read the file content and split it into individual words.  
-   - Count the frequency of each word (ignore capitalization, e.g., "The" and "the" should be counted as the same word).  
-   - Ignore punctuation (like commas, periods, etc.).  
-
-3. **Output**  
-   - Display the total number of words in the file.  
-   - Display the top 5 most common words with their counts.  
-   - Save the output to a new file called **"word_count_report.txt"**.  
-
-4. **Example Output**  
-   **Content of sample.txt**:  
-   ```
-   This is a simple file.
-   This file, is for testing purposes. It is a test file.
-   ```
-
-   **Console Output**:  
-   ```
-   Total words: 14
-   Top 5 most common words:
-   is - 3 times
-   this - 2 times
-   file - 3 times
-   a - 2 times
-   test - 1 time
-   ```
-
-   **Content of word_count_report.txt**:  
-   ```
-   Word Count Report
-   Total Words: 14
-   Top 5 Words:
-   is - 3
-   file - 3
-   this - 2
-   a - 2
-   test - 1
-   ```
-
-**Bonus Task**:  
-- Allow the user to specify how many "top common words" to display (e.g., top 3, top 10, etc.).  
-- Make sure the program ignores case, punctuation, and handles large files efficiently.  
+9. Iterate 0 to 10 using for loop, do the same using while loop.
+10. Iterate 10 to 0 using for loop, do the same using while loop.
+11. Use nested loops to create the following:
+    ```bash
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    # # # # # # # #
+    ```
+12. Print the following pattern:
+    ```bash
+    0 x 0 = 0
+    1 x 1 = 1
+    2 x 2 = 4
+    3 x 3 = 9
+    4 x 4 = 16
+    5 x 5 = 25
+    6 x 6 = 36
+    7 x 7 = 49
+    8 x 8 = 64
+    9 x 9 = 81
+    10 x 10 = 100
+    ```
+13. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+14. Use for loop to iterate from 0 to 100 and print only even numbers
+15. Use for loop to iterate from 100 to 0 and print only even numbers
+16. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+    ```bash
+    The sum of all numbers is 5050.
+    ```
+17. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+    ```bash
+    The sum of all evens is 2550. And the sum of all odds is 2500.
+    ```

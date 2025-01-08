@@ -1,127 +1,101 @@
-### List Tasks
+# Class 3 - Homeworks
 
-1. **Count Occurrences**: Given a list and an element, find how many times the element appears in the list.
-2. **Sum of Elements**: Given a list of numbers, calculate the total of all the elements.
-3. **Max Element**: From a given list, determine the largest element.
-4. **Min Element**: From a given list, determine the smallest element.
-5. **Check Element**: Given a list and an element, check if the element is present in the list.
-6. **First Element**: Access the first element of a list, considering what to return if the list is empty.
-7. **Last Element**: Access the last element of a list, considering what to return if the list is empty.
-8. **Slice List**: Create a new list that contains only the first three elements of the original list.
-9. **Reverse List**: Create a new list that contains the elements of the original list in reverse order.
-10. **Sort List**: Create a new list that contains the elements of the original list in sorted order.
-11. **Remove Duplicates**: Given a list, create a new list that contains only unique elements from the original list.
-12. **Insert Element**: Given a list and an element, insert the element at a specified index.
-13. **Index of Element**: Given a list and an element, find the index of the first occurrence of the element.
-14. **Check for Empty List**: Determine if a list is empty and return a boolean.
-15. **Count Even Numbers**: Given a list of integers, count how many of them are even.
-16. **Count Odd Numbers**: Given a list of integers, count how many of them are odd.
-17. **Concatenate Lists**: Given two lists, create a new list that combines both lists.
-18. **Find Sublist**: Given a list and a sublist, check if the sublist exists within the list.
-19. **Replace Element**: Given a list, replace the first occurrence of a specified element with another element.
-20. **Find Second Largest**: From a given list, find the second largest element.
-21. **Find Second Smallest**: From a given list, find the second smallest element.
-22. **Filter Even Numbers**: Given a list of integers, create a new list that contains only the even numbers.
-23. **Filter Odd Numbers**: Given a list of integers, create a new list that contains only the odd numbers.
-24. **List Length**: Determine the number of elements in the list.
-25. **Create a Copy**: Create a new list that is a copy of the original list.
-26. **Get Middle Element**: Given a list, find the middle element. If the list has an even number of elements, return the two middle elements.
-27. **Find Maximum of Sublist**: Given a list, find the maximum element of a specified sublist.
-28. **Find Minimum of Sublist**: Given a list, find the minimum element of a specified sublist.
-29. **Remove Element by Index**: Given a list and an index, remove the element at that index if it exists.
-30. **Check if List is Sorted**: Determine if the list is sorted in ascending order and return a boolean.
-31. **Repeat Elements**: Given a list and a number, create a new list where each element is repeated that number of times.
-32. **Merge and Sort**: Given two lists, create a new sorted list that merges both lists.
-33. **Find All Indices**: Given a list and an element, find all the indices of that element in the list.
-34. **Rotate List**: Given a list, create a new list that is a rotated version of the original list (shift elements to the right).
-35. **Create Range List**: Create a list of numbers in a specified range (e.g., from 1 to 10).
-36. **Sum of Positive Numbers**: Given a list of numbers, calculate the sum of all positive numbers.
-37. **Sum of Negative Numbers**: Given a list of numbers, calculate the sum of all negative numbers.
-38. **Check Palindrome**: Given a list, check if the list is a palindrome (reads the same forwards and backwards).
-39. **Create Nested List**: Create a new list that contains sublists, where each sublist contains a specified number of elements from the original list.
-40. **Get Unique Elements in Order**: Given a list, create a new list that contains unique elements while maintaining the original order.
+## Topic: Lists, Tuples
+
+## Exercises - List
+1. Create a list named `fruits` that contains the following items: `'apple'`, `'banana'`, `'cherry'`. Then print the list.
+2. Create two empty lists: one using square brackets `([])` and one using the `list()` function. Assign them to `empty_list1` and `empty_list2` respectively, and print both.
+3. Use the `list()` function to convert the string `'hello'` into a list of characters and assign it to a variable named `char_list`. Print the result.
+4. Create a list named nested that contains three lists: `[1, 2]`, `[3, 4]`, and `[5, 6]`. Then access and print the second list inside nested.
+5. Given the list `colors = ['red', 'green', 'blue', 'yellow']`, write a script to print:
+    <ul>
+        <li>The first element</li>
+        <li>The last element</li>
+        <li>The second and third elements</li>
+    </ul> 
+6. Create a list named `mixed` that contains the following items:
+    <ol>
+        <li>A string: `'Python'`</li>
+        <li>An integer: `42`</li>
+        <li>A float: `3.14`</li>
+        <li>Another list: `[1, 2, 3]`</li>
+    </ol>
+    Print the `mixed` list.
+
+7. Write a program to print all the elements of a list in single line.
+    Input: 
+    ```python
+    num = [23,24,54,34] 
+    ```
+
+    Output:
+    ```bash
+    23  24  54  34
+    ```
 
 
-### Tuple Tasks
+8. Write a program to count the number of items stored in a list.
 
-1. **Count Occurrences**: Given a tuple and an element, find how many times the element appears in the tuple.
-2. **Max Element**: From a given tuple, determine the largest element.
-3. **Min Element**: From a given tuple, determine the smallest element.
-4. **Check Element**: Given a tuple and an element, check if the element is present in the tuple.
-5. **First Element**: Access the first element of a tuple, considering what to return if the tuple is empty.
-6. **Last Element**: Access the last element of a tuple, considering what to return if the tuple is empty.
-7. **Tuple Length**: Determine the number of elements in the tuple.
-8. **Slice Tuple**: Create a new tuple that contains only the first three elements of the original tuple.
-9. **Concatenate Tuples**: Given two tuples, create a new tuple that combines both.
-10. **Check if Tuple is Empty**: Determine if a tuple has any elements.
-11. **Get All Indices of Element**: Given a tuple and an element, find all the indices of that element in the tuple.
-12. **Find Second Largest**: From a given tuple, find the second largest element.
-13. **Find Second Smallest**: From a given tuple, find the second smallest element.
-14. **Create a Single Element Tuple**: Create a tuple that contains a single specified element.
-15. **Convert List to Tuple**: Given a list, create a tuple containing the same elements.
-16. **Check if Tuple is Sorted**: Determine if the tuple is sorted in ascending order and return a boolean.
-17. **Find Maximum of Subtuple**: Given a tuple, find the maximum element of a specified subtuple.
-18. **Find Minimum of Subtuple**: Given a tuple, find the minimum element of a specified subtuple.
-19. **Remove Element by Value**: Given a tuple and an element, create a new tuple that removes the first occurrence of that element.
-20. **Create Nested Tuple**: Create a new tuple that contains subtuples, where each subtuple contains specified elements from the original tuple.
-21. **Repeat Elements**: Given a tuple and a number, create a new tuple where each element is repeated that number of times.
-22. **Create Range Tuple**: Create a tuple of numbers in a specified range (e.g., from 1 to 10).
-23. **Reverse Tuple**: Create a new tuple that contains the elements of the original tuple in reverse order.
-24. **Check Palindrome**: Given a tuple, check if the tuple is a palindrome (reads the same forwards and backwards).
-25. **Get Unique Elements**: Given a tuple, create a new tuple that contains only the unique elements while maintaining the original order.
+    Input: 
+    ```python
+    num = [23,24,54,34] 
+    ```
 
+    Output:
+    ```bash
+    4
+    ```
+9. Create a list of numbers from 1 to 10. Print the following:  
+    - The first element  
+    - The last element  
+    - The middle element  
 
-### Set Tasks
+10. Use negative indexing to:
+    - Print the second-to-last element
+    - Print the list in reverse
 
-1. **Union of Sets**: Given two sets, create a new set that contains all unique elements from both sets.
-2. **Intersection of Sets**: Given two sets, create a new set that contains elements common to both sets.
-3. **Difference of Sets**: Given two sets, create a new set with elements from the first set that are not in the second.
-4. **Check Subset**: Given two sets, check if one set is a subset of the other.
-5. **Check Element**: Given a set and an element, check if the element exists in the set.
-6. **Set Length**: Determine the number of unique elements in a set.
-7. **Convert List to Set**: Given a list, create a new set that contains only the unique elements from that list.
-8. **Remove Element**: Given a set and an element, remove the element if it exists.
-9. **Clear Set**: Create a new empty set from an existing set.
-10. **Check if Set is Empty**: Determine if a set has any elements.
-11. **Symmetric Difference**: Given two sets, create a new set that contains elements that are in either set but not in both.
-12. **Add Element**: Given a set and an element, add the element to the set if it is not already present.
-13. **Pop Element**: Given a set, remove and return an arbitrary element from the set.
-14. **Find Maximum**: From a given set of numbers, find the maximum element.
-15. **Find Minimum**: From a given set of numbers, find the minimum element.
-16. **Filter Even Numbers**: Given a set of integers, create a new set that contains only the even numbers.
-17. **Filter Odd Numbers**: Given a set of integers, create a new set that contains only the odd numbers.
-18. **Create a Set of a Range**: Create a set of numbers in a specified range (e.g., from 1 to 10).
-19. **Merge and Deduplicate**: Given two lists, create a new set that merges both lists and removes duplicates.
-20. **Check Disjoint Sets**: Given two sets, check if they have no elements in common.
-21. **Remove Duplicates from a List**: Given a list, create a set from it to remove duplicates, then convert back to a list.
-22. **Count Unique Elements**: Given a list, determine the count of unique elements using a set.
-23. **Generate Random Set**: Create a set with a specified number of random integers within a certain range.
+11. Slice and print the following:
+    - The first 3 elements
+    - The last 3 elements
+    - All elements except the first and last
+12. Use slicing with steps to:
+    - Print every second element
+    - Print the list in reverse using slicing
+13. Modify part of the list by replacing the middle three elements with zeros.
+14. Remove the first three elements using slicing.
+16. Write a Python program to sum all the items in a list. 
+17. Write a Python program to get the largest number from a list. 
+18. Write a Python program to get the smallest number from a list. 
+19. Write a Python program to clone or copy a list. 
+20. Write a Python program to convert a list of characters into a string. 
+21. Write a Python program to find the second smallest number in a list. 
+22. Write a Python program to find the second largest number in a list. 
 
+### Methods
+23. Adds an element to the end of the list.
+24. Sorts the list in ascending and descending order.
+25. Reverses the list in place.
+26. Removes and returns the element at the specified index (or the last element by default).
+27. Removes the first occurrence of a specified value.
+28. Inserts an element at a specific position.
+29. Returns the index of the first occurrence of a value.
+30. Extends the list by appending elements from another iterable.
+31. Returns the number of occurrences of a specified value.
+32. Removes all elements from the list.
+33. Returns a shallow copy of the list.
 
-### Dictionary Tasks
-
-1. **Get Value**: Given a dictionary and a key, retrieve the associated value, considering what to return if the key doesn’t exist.
-2. **Check Key**: Given a dictionary and a key, check if the key is present in the dictionary.
-3. **Count Keys**: Determine the number of keys in the dictionary.
-4. **Get All Keys**: Create a list that contains all the keys in the dictionary.
-5. **Get All Values**: Create a list that contains all the values in the dictionary.
-6. **Merge Dictionaries**: Given two dictionaries, create a new dictionary that combines both.
-7. **Remove Key**: Given a dictionary and a key, remove the key if it exists, handling the case if it doesn’t.
-8. **Clear Dictionary**: Create a new empty dictionary.
-9. **Check if Dictionary is Empty**: Determine if a dictionary has any elements.
-10. **Get Key-Value Pair**: Given a dictionary and a key, retrieve the key-value pair if the key exists.
-11. **Update Value**: Given a dictionary, update the value for a specified key.
-12. **Count Value Occurrences**: Given a dictionary, count how many times a specific value appears across the keys.
-13. **Invert Dictionary**: Given a dictionary, create a new dictionary that swaps keys and values.
-14. **Find Keys with Value**: Given a dictionary and a value, create a list of all keys that have that value.
-15. **Create a Dictionary from Lists**: Given two lists (one of keys and one of values), create a dictionary that pairs them.
-16. **Check for Nested Dictionaries**: Given a dictionary, check if any values are also dictionaries.
-17. **Get Nested Value**: Given a nested dictionary, retrieve a value from within one of the inner dictionaries.
-18. **Create Default Dictionary**: Create a dictionary that provides a default value for missing keys.
-19. **Count Unique Values**: Given a dictionary, determine the number of unique values it contains.
-20. **Sort Dictionary by Key**: Create a new dictionary sorted by keys.
-21. **Sort Dictionary by Value**: Create a new dictionary sorted by values.
-22. **Filter by Value**: Given a dictionary, create a new dictionary that only includes items with values that meet a certain condition.
-23. **Check for Common Keys**: Given two dictionaries, check if they have any keys in common.
-24. **Create Dictionary from Tuple**: Given a tuple of key-value pairs, create a dictionary from it.
-25. **Get the First Key-Value Pair**: Retrieve the first key-value pair from a dictionary.
+## Tuple
+34. Create a tuple with the numbers 10, 20, 30. Print the type to confirm it's a tuple.  
+35. Create a tuple explicitly using parentheses with the values 'apple', 'banana', 'cherry'.
+36. Create a tuple with a single element 42. Print its type to confirm it's a tuple.
+37. Create an empty tuple in two different ways. Print their lengths.
+38. Convert the list ['a', 'b', 'c'] to a tuple.
+39. Access the second element of the tuple (5, 10, 15, 20).
+40. Print the last element of the tuple (3, 6, 9, 12).
+41. Count how many times 7 appears in the tuple (7, 1, 7, 3, 7, 4).
+42. Find the index of the value 4 in the tuple (8, 4, 6, 4, 10).
+43. Concatenate (1, 2) with (3, 4). Print the result.
+44. Find the length of the tuple (100, 200, 300, 400, 500).
+45. Unpack the tuple ('Python', 'SQL', 'HTML') into three variables and print each.
+46. Unpack the tuple (1, 2, 3, 4, 5) using x, *y, z and print y.
+47. Access the element 5 in the tuple ((1, 2), (3, 4), (5, 6)).

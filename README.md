@@ -1,4 +1,4 @@
-<h3 style="text-align:center;color:#0F4C81;">Python Lessons for BI and AI group</h3>
+<h3 style="text-align:center;color:#0F4C81;">Python Lessons for MAAB ACADEMY</h3>
 
 <h5 style="color: #009B77;">Best Core Python Books:</h5>
 
@@ -19,7 +19,7 @@
 </a>
 
 <h5 style="color: #009B77;">Useful Websites:</h5>
-
+- <a href="https://py4e.com"  target="_blank">Python For Everybody</a>
 - <a href="https://docs.python.org/3/"  target="_blank">Python Documentation</a>
 - <a href="https://www.python.org/psf-landing/"  target="_blank">The Python Software Foundation</a>
 - <a href="https://realpython.com/"  target="_blank">RealPython</a>
